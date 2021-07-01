@@ -1,0 +1,26 @@
+{
+  "name": "typescript-clean-project",
+  "version": "1.0.0",
+  "description": "This is meant to a starter Typescript project",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "build": "tsc",
+    "dev": "ts-node-dev src/index.ts",
+    "lint": "eslint . --ext .ts",
+    "tsc": "tsc",
+    "ts-node-dev": "ts-node-dev"
+  },
+  "author": "carlba",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.18.0",
+    "@typescript-eslint/parser": "^4.18.0",
+    "eslint": "^7.22.0",
+    "prettier": "^2.2.1",
+    "prettier-eslint": "^12.0.0",
+    "ts-node-dev": "^1.1.6",
+    "typescript": "^4.2.3"
+  },
+  "dependencies": {}
+}
