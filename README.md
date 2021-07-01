@@ -1,19 +1,11 @@
-# Typescript Clean Project
+# Mdastify
 
-This is meant to a starter Typescript project
+This repo will contains various test regarding mdast and unified
 
-# Setup
+# Usage
 
-1. eslint for Typescript 
-
-https://khalilstemmler.com/blogs/typescript/eslint-for-typescript
+Currently only one script is available
 
 ```bash
-npm install --save-dev typescript eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin
-```
-
-2. Initialize Typescript
-
-```bash
-npx tsc --init
+npm run numbered-headings
 ```
